@@ -1,15 +1,46 @@
-body{
+body {
     background-color: brown;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
-.header{
 
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-.title{
 
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-#button{
 
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.menu{
-    
+
+#button:hover {
+    background-color: #45a049;
+}
+
+.menu {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
