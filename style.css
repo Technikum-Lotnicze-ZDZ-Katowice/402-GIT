@@ -10,47 +10,17 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
-<<<<<<< HEAD
-.header{
-border: solid red 3px;
-=======
-}
-=======
 
 .header{
 border: solid red 3px;
 }
 
->>>>>>> 08b946262428d3ef7efffb46a7c77aad6a98e7a0
 .header {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-<<<<<<< HEAD
-    position: fixed; 
-    top: 0; 
-    width: 100%;
-    z-index: 10; 
-}
 
-#button {
-    background-color: blue;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    float: right; 
-    margin-left: 20px; 
-=======
-<<<<<<< HEAD
-d4a113db2e5afb7ceb7136c7d6b1829e867f3837
-=======
-
->>>>>>> 08b946262428d3ef7efffb46a7c77aad6a98e7a0
->>>>>>> 01474088b29a4ef1a475685dc52f7fad9c6f727d
 }
 
 .title {
@@ -59,8 +29,18 @@ d4a113db2e5afb7ceb7136c7d6b1829e867f3837
     margin-bottom: 20px;
 }
 
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 #button:hover {
-    background-color: red;
+    background-color: #45a049;
 }
 
 .menu {
@@ -69,21 +49,3 @@ d4a113db2e5afb7ceb7136c7d6b1829e867f3837
     border-radius: 5px;
     margin-top: 20px;
 }
-@media (max-width: 768px) {
-    .title {
-      font-size: 2em;
-    }
-    #button {
-      padding: 10px 20px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .header {
-      text-align: left;
-    }
-    .menu {
-      margin-top: 10px;
-    }
-  }
-  
