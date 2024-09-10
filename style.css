@@ -11,33 +11,15 @@ body {
     min-height: 100vh;
 }
 
-
 .header{
-border: solid red 3px;
 
-}
-
-
-
-
-
-
-.header{
-border: solid red 3px;
-}
-
-.header {
-    background-color: #333;
-    color: white;
     padding: 20px;
     text-align: center;
-
     position: fixed; 
     top: 0; 
-    width: 100%;
-    z-index: 10; 
-}
-
+    width: 100%; 
+    z-index: 10;
+ }
 #button {
     background-color: blue;
     color: white;
@@ -48,7 +30,6 @@ border: solid red 3px;
     transition: background-color 0.3s ease;
     float: right; 
     margin-left: 20px; 
-
 }
 
 .title {
@@ -57,23 +38,32 @@ border: solid red 3px;
     margin-bottom: 20px;
 }
 
-#button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
 #button:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 .menu {
+    color:black;
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    .title {
+      font-size: 2em;
+    }
+    #button {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      text-align: left;
+    }
+    .menu {
+      margin-top: 10px;
+    }
+  }
+  
