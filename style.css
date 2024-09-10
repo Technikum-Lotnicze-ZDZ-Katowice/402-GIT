@@ -49,3 +49,21 @@ border: solid red 3px;
     border-radius: 5px;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    .title {
+      font-size: 2em;
+    }
+    #button {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      text-align: left;
+    }
+    .menu {
+      margin-top: 10px;
+    }
+  }
+  
