@@ -10,14 +10,14 @@
 <header class="header">
     <div id="menu">
         <button id="button">button</button>
-        <a href="mateusz.html">Mateusz</a>
-        <a href="marek.html">Marek</a>
-        <a href="max.html">max</a>
-        <a href="oskar.html">Oskar</a>
-        <a href="oskar2.html">Laga Oskar</a>    
-        <a href="tomek.html">Tomek</a>
-        <a href="szymon.html">Szymon</a>
-        <a href="krzychu.html">Krzychu</a>      
+        <a class="lista" href="mateusz.html">Mateusz</a>
+        <a class="lista" href="marek.html">Marek</a>
+        <a class="lista" href="max.html">max</a>
+        <a class="lista" href="oskar.html">Oskar</a>
+        <a class="lista" href="oskar2.html">Laga Oskar</a>    
+        <a class="lista" href="tomek.html">Tomek</a>
+        <a class="lista" href="szymon.html">Szymon</a>
+        <a class="lista" href="krzychu.html">Krzychu</a>      
 
     </div>
 </header>
@@ -27,5 +27,16 @@
     akapit dodany w main
     
     zmiana w dev
+    <script>
+      const button = document.getElementById("button");
+      const lista = document.getElementById("lista");
+
+     button.addEventListener("click", magic); 
+
+
+    function magic() {
+        lista.style.display = "block";
+    }
+    </script>
 </body>
 </html>

@@ -10,7 +10,14 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
-
+#ph1{
+  width:500px;
+  height:300px;
+}
+#ph2{
+  width:500px;
+  height:300px;
+}
 .header{
 
     padding: 20px;
@@ -41,7 +48,9 @@ body {
 #button:hover {
     background-color: red;
 }
-
+.lista{
+  display:none
+}
 .menu {
     color:black;
     background-color: #f2f2f2;
