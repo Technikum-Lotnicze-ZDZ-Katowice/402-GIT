@@ -7,20 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
+<div class="header">
     <div id="menu">
-        <button id="button">button</button>
+        <button id="button">=</button>
+        <div id="menu-list">
+            <div class="podstrony">
         <a class="lista" href="mateusz.html">Mateusz</a>
-        <a class="lista" href="marek.html">Marek</a>
-        <a class="lista" href="max.html">max</a>
-        <a class="lista" href="oskar.html">Oskar</a>
-        <a class="lista" href="oskar2.html">Laga Oskar</a>    
-        <a class="lista" href="tomek.html">Tomek</a>
-        <a class="lista" href="szymon.html">Szymon</a>
-        <a class="lista" href="krzychu.html">Krzychu</a>      
-
     </div>
-</header>
+    <div class="podstrony">
+        <a class="lista" href="marek.html">Marek</a>
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="max.html">max</a>
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="oskar.html">Oskar</a>
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="oskar2.html">Laga Oskar</a>  
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="tomek.html">Tomek</a>
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="szymon.html">Szymon</a>
+    </div>
+    <div class="podstrony">
+        <a class="lista" href="krzychu.html">Krzychu</a>   
+    </div>   
+        </div>
+    </div>
+    </div>
+</div>
     <h1>Moja strona</h1>
     <div>To jest strona standardowa</div>
 
@@ -29,13 +47,17 @@
     zmiana w dev
     <script>
       const button = document.getElementById("button");
-      const lista = document.getElementById("lista");
+      const menuList = document.getElementById("menu-list");
+
+        button.addEventListener("click", () => {
+            menuList.classList.toggle("active");
+        });
 
      button.addEventListener("click", magic); 
 
 
     function magic() {
-        lista.style.display = "block";
+        list.style.display = "block";
     }
     </script>
 </body>

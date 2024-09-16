@@ -18,8 +18,15 @@ body {
   width:500px;
   height:300px;
 }
-.header{
+#ph3{
+  width:500px;
+  height:300px;
+}
 
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     text-align: center;
     position: fixed; 
@@ -31,10 +38,11 @@ body {
     background-color: blue;
     color: white;
     padding: 15px 30px;
+    width:100px;
+    height:50px;
     border: none;
-    border-radius: 5px;
+    border-radius: 60px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     float: right; 
     margin-left: 20px; 
 }
@@ -48,8 +56,28 @@ body {
 #button:hover {
     background-color: red;
 }
-.lista{
-  display:none
+#menu-list{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  transition: all 0.3s ease;
+}
+#menu-list.active {
+  display: block;
+}
+
+.podstrony {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.podstrony:last-child {
+  border-bottom: none;
 }
 .menu {
     color:black;
